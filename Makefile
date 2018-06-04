@@ -461,7 +461,7 @@ packs-tests: requirements .packs-tests
 
 
 .PHONY: runners-tests
-packs-tests: requirements .runners-tests
+runners-tests: requirements .runners-tests
 
 .PHONY: .runners-tests
 .runners-tests:
